@@ -1,12 +1,12 @@
 # README
 
-These codes where used in the HPE Developer Meetup on July 31st 2024 for "Vendor-Neutral GPU Programming in Chapel".
+These codes were used in the HPE Developer Meetup on July 31st 2024 for "Vendor-Neutral GPU Programming in Chapel".
 
 ## Prerequisites
 
 These codes require a working install of Chapel. See https://chapel-lang.org/download.html for instructions on how to install Chapel. They are all written to work with either CPUs or GPUs. The GPU codes require an install of Chapel with GPU support (i.e. `CHPL_LOCALE_MODEL=gpu`). For more information on how to install Chapel with GPU support, see https://chapel-lang.org/docs/technotes/gpu.html#setup for more details.
 
-If you wish to run `./05_life --print`, you will need to have `ffmpeg` installed.
+Note: If you wish to run `./05_life --print`, you will need to have `ffmpeg` installed.
 
 ## Compiling
 
